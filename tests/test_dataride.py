@@ -6,7 +6,7 @@
 
 import unittest
 
-from dataride import dataride
+from dataride import globals
 
 
 class TestDataride(unittest.TestCase):
@@ -19,4 +19,5 @@ class TestDataride(unittest.TestCase):
         """Tear down test fixtures, if any."""
 
     def test_000_something(self):
-        """Test something."""
+        self.assertNotEqual(globals.getCountries(), "")
+        self.assertNotEqual(globals.getContinents(), "")
