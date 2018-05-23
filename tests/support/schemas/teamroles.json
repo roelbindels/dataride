@@ -1,0 +1,74 @@
+{
+  "$id": "http://dataride.org/teamroles.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://dataride.org/teamroles.json/items",
+    "type": "object",
+    "properties": {
+      "DisciplineCode": {
+        "$id": "http://dataride.org/teamroles.json/items/properties/DisciplineCode",
+        "type": "null",
+        "title": "The Disciplinecode Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "DisciplineID": {
+        "$id": "http://dataride.org/teamroles.json/items/properties/DisciplineID",
+        "type": "null",
+        "title": "The Disciplineid Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "FunctionID": {
+        "$id": "http://dataride.org/teamroles.json/items/properties/FunctionID",
+        "type": "integer",
+        "title": "The Functionid Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "FunctionNameEng": {
+        "$id": "http://dataride.org/teamroles.json/items/properties/FunctionNameEng",
+        "type": "string",
+        "title": "The Functionnameeng Schema ",
+        "default": "",
+        "examples": [
+          "Team Manager"
+        ]
+      },
+      "FunctionNameFra": {
+        "$id": "http://dataride.org/teamroles.json/items/properties/FunctionNameFra",
+        "type": "string",
+        "title": "The Functionnamefra Schema ",
+        "default": "",
+        "examples": [
+          "Directeur Sportif"
+        ]
+      },
+      "Notes": {
+        "$id": "http://dataride.org/teamroles.json/items/properties/Notes",
+        "title": "The Notes Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "Sequence": {
+        "$id": "http://dataride.org/teamroles.json/items/properties/Sequence",
+        "type": "integer",
+        "title": "The Sequence Schema ",
+        "default": 0,
+        "examples": [
+          null
+        ]
+      }
+    }
+  }
+}

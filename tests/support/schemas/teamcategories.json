@@ -1,0 +1,84 @@
+{
+  "$id": "http://dataride.org/teamcategories.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://dataride.org/teamcategories.json/items",
+    "type": "object",
+    "properties": {
+      "ID": {
+        "$id": "http://dataride.org/teamcategories.json/items/properties/ID",
+        "type": "integer",
+        "title": "The Id Schema ",
+        "default": 0,
+        "examples": [
+          95
+        ]
+      },
+      "DisciplineCode": {
+        "$id": "http://dataride.org/teamcategories.json/items/properties/DisciplineCode",
+        "type": "string",
+        "title": "The Disciplinecode Schema ",
+        "default": "",
+        "examples": [
+          "ROA"
+        ]
+      },
+      "SeasonYear": {
+        "$id": "http://dataride.org/teamcategories.json/items/properties/SeasonYear",
+        "type": "integer",
+        "title": "The Seasonyear Schema ",
+        "default": 0,
+        "examples": [
+          2018
+        ]
+      },
+      "Code": {
+        "$id": "http://dataride.org/teamcategories.json/items/properties/Code",
+        "type": "string",
+        "title": "The Code Schema ",
+        "default": "",
+        "examples": [
+          "WTT"
+        ]
+      },
+      "SeasonNameFra": {
+        "$id": "http://dataride.org/teamcategories.json/items/properties/SeasonNameFra",
+        "type": "string",
+        "title": "The Seasonnamefra Schema ",
+        "default": "",
+        "examples": [
+          "UCI WorldTeams"
+        ]
+      },
+      "SeasonNameEng": {
+        "$id": "http://dataride.org/teamcategories.json/items/properties/SeasonNameEng",
+        "type": "string",
+        "title": "The Seasonnameeng Schema ",
+        "default": "",
+        "examples": [
+          "UCI WorldTeams"
+        ]
+      },
+      "DisplayNameFra": {
+        "$id": "http://dataride.org/teamcategories.json/items/properties/DisplayNameFra",
+        "type": "string",
+        "title": "The Displaynamefra Schema ",
+        "default": "",
+        "examples": [
+          "WTT - UCI WorldTeams"
+        ]
+      },
+      "DisplayNameEng": {
+        "$id": "http://dataride.org/teamcategories.json/items/properties/DisplayNameEng",
+        "type": "string",
+        "title": "The Displaynameeng Schema ",
+        "default": "",
+        "examples": [
+          "WTT - UCI WorldTeams"
+        ]
+      }
+    }
+  }
+}
