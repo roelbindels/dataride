@@ -1,0 +1,164 @@
+{
+  "$id": "http://dataride.org/teams.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://dataride.org/teams.json/items",
+    "type": "object",
+    "properties": {
+      "TeamHistoryID": {
+        "$id": "http://dataride.org/teams.json/items/properties/TeamHistoryID",
+        "title": "The Teamhistoryid Schema ",
+        "default": 0,
+        "examples": [
+          10228
+        ]
+      },
+      "TeamNameID": {
+        "$id": "http://dataride.org/teams.json/items/properties/TeamNameID",
+        "title": "The Teamnameid Schema ",
+        "default": 0,
+        "examples": [
+          7186
+        ]
+      },
+      "TeamParentID": {
+        "$id": "http://dataride.org/teams.json/items/properties/TeamParentID",
+        "title": "The Teamparentid Schema ",
+        "default": 0,
+        "examples": [
+          3099
+        ]
+      },
+      "TeamSeasonID": {
+        "$id": "http://dataride.org/teams.json/items/properties/TeamSeasonID",
+        "title": "The Teamseasonid Schema ",
+        "default": 0,
+        "examples": [
+          228
+        ]
+      },
+      "TeamCode": {
+        "$id": "http://dataride.org/teams.json/items/properties/TeamCode",
+        "title": "The Teamcode Schema ",
+        "default": "",
+        "examples": [
+          "3O3"
+        ]
+      },
+      "NameFra": {
+        "$id": "http://dataride.org/teams.json/items/properties/NameFra",
+        "title": "The Namefra Schema ",
+        "default": "",
+        "examples": [
+          "303 PROJECT"
+        ]
+      },
+      "NameEng": {
+        "$id": "http://dataride.org/teams.json/items/properties/NameEng",
+        "title": "The Nameeng Schema ",
+        "default": "",
+        "examples": [
+          "303 PROJECT"
+        ]
+      },
+      "CountryCode": {
+        "$id": "http://dataride.org/teams.json/items/properties/CountryCode",
+        "title": "The Countrycode Schema ",
+        "default": "",
+        "examples": [
+          "USA"
+        ]
+      },
+      "ContinentCode": {
+        "$id": "http://dataride.org/teams.json/items/properties/ContinentCode",
+        "title": "The Continentcode Schema ",
+        "default": "",
+        "examples": [
+          "AME"
+        ]
+      },
+      "Format": {
+        "$id": "http://dataride.org/teams.json/items/properties/Format",
+        "title": "The Format Schema ",
+        "default": "",
+        "examples": [
+          ""
+        ]
+      },
+      "EMail": {
+        "$id": "http://dataride.org/teams.json/items/properties/EMail",
+        "title": "The Email Schema ",
+        "default": "",
+        "examples": [
+          "nicholas.greeff26@gmail.com"
+        ]
+      },
+      "WebSite": {
+        "$id": "http://dataride.org/teams.json/items/properties/WebSite",
+        "title": "The Website Schema ",
+        "default": "",
+        "examples": [
+          "www.303project.com"
+        ]
+      },
+      "Active": {
+        "$id": "http://dataride.org/teams.json/items/properties/Active",
+        "title": "The Active Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "CountryISO": {
+        "$id": "http://dataride.org/teams.json/items/properties/CountryISO",
+        "title": "The Countryiso Schema ",
+        "default": "",
+        "examples": [
+          "US"
+        ]
+      },
+      "SeasonYear": {
+        "$id": "http://dataride.org/teams.json/items/properties/SeasonYear",
+        "title": "The Seasonyear Schema ",
+        "default": 0,
+        "examples": [
+          2018
+        ]
+      },
+      "DisciplineCode": {
+        "$id": "http://dataride.org/teams.json/items/properties/DisciplineCode",
+        "title": "The Disciplinecode Schema ",
+        "default": "",
+        "examples": [
+          "ROA"
+        ]
+      },
+      "Code": {
+        "$id": "http://dataride.org/teams.json/items/properties/Code",
+        "title": "The Code Schema ",
+        "default": "",
+        "examples": [
+          "CTM"
+        ]
+      },
+      "Category": {
+        "$id": "http://dataride.org/teams.json/items/properties/Category",
+        "title": "The Category Schema ",
+        "default": "",
+        "examples": [
+          "ROA/CTM"
+        ]
+      },
+      "TeamOrder": {
+        "$id": "http://dataride.org/teams.json/items/properties/TeamOrder",
+        "title": "The Teamorder Schema ",
+        "default": 0,
+        "examples": [
+          4649
+        ]
+      }
+    }
+  }
+}

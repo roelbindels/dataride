@@ -1,0 +1,66 @@
+{
+  "$id": "http://dataride.org/continents.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://dataride.org/continents.json/items",
+    "type": "object",
+    "properties": {
+      "ContinentCode": {
+        "$id": "http://dataride.org/continents.json/items/properties/ContinentCode",
+        "type": "string",
+        "title": "The Continentcode Schema ",
+        "default": "",
+        "examples": [
+          "AFR"
+        ]
+      },
+      "ContinentEnglishName": {
+        "$id": "http://dataride.org/continents.json/items/properties/ContinentEnglishName",
+        "type": "string",
+        "title": "The Continentenglishname Schema ",
+        "default": "",
+        "examples": [
+          "Africa"
+        ]
+      },
+      "ContinentFrenchName": {
+        "$id": "http://dataride.org/continents.json/items/properties/ContinentFrenchName",
+        "type": "string",
+        "title": "The Continentfrenchname Schema ",
+        "default": "",
+        "examples": [
+          "Afrique"
+        ]
+      },
+      "ContinentID": {
+        "$id": "http://dataride.org/continents.json/items/properties/ContinentID",
+        "type": "integer",
+        "title": "The Continentid Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "DisplayNameEng": {
+        "$id": "http://dataride.org/continents.json/items/properties/DisplayNameEng",
+        "type": "string",
+        "title": "The Displaynameeng Schema ",
+        "default": "",
+        "examples": [
+          "AFR - Africa"
+        ]
+      },
+      "DisplayNameFra": {
+        "$id": "http://dataride.org/continents.json/items/properties/DisplayNameFra",
+        "type": "string",
+        "title": "The Displaynamefra Schema ",
+        "default": "",
+        "examples": [
+          "AFR - Afrique"
+        ]
+      }
+    }
+  }
+}

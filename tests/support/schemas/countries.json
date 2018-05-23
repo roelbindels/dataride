@@ -1,0 +1,107 @@
+{
+  "$id": "http://dataride.org/countries.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://dataride.org/countries.json/items",
+    "type": "object",
+    "properties": {
+      "ActiveFlag": {
+        "$id": "http://dataride.org/countries.json/items/properties/ActiveFlag",
+        "type": "boolean",
+        "title": "The Activeflag Schema ",
+        "default": false,
+        "examples": [
+          true
+        ]
+      },
+      "AreaCode": {
+        "$id": "http://dataride.org/countries.json/items/properties/AreaCode",
+        "title": "The Areacode Schema ",
+        "default": "",
+        "examples": [
+          "+1"
+        ]
+      },
+      "ConfederationCode": {
+        "$id": "http://dataride.org/countries.json/items/properties/ConfederationCode",
+        "title": "The Confederationcode Schema ",
+        "default": "",
+        "examples": [
+          "PAN"
+        ]
+      },
+      "ContinentCode": {
+        "$id": "http://dataride.org/countries.json/items/properties/ContinentCode",
+        "title": "The Continentcode Schema ",
+        "default": "",
+        "examples": [
+          "AME"
+        ]
+      },
+      "CountryCode": {
+        "$id": "http://dataride.org/countries.json/items/properties/CountryCode",
+        "type": "string",
+        "title": "The Countrycode Schema ",
+        "default": "",
+        "examples": [
+          "SXM"
+        ]
+      },
+      "CountryID": {
+        "$id": "http://dataride.org/countries.json/items/properties/CountryID",
+        "type": "integer",
+        "title": "The Countryid Schema ",
+        "default": 0,
+        "examples": [
+          215
+        ]
+      },
+      "CountryISO": {
+        "$id": "http://dataride.org/countries.json/items/properties/CountryISO",
+        "title": "The Countryiso Schema ",
+        "default": "",
+        "examples": [
+          "SX"
+        ]
+      },
+      "CountryNameEng": {
+        "$id": "http://dataride.org/countries.json/items/properties/CountryNameEng",
+        "type": "string",
+        "title": "The Countrynameeng Schema ",
+        "default": "",
+        "examples": [
+          "SINT MAARTEN"
+        ]
+      },
+      "CountryNameFra": {
+        "$id": "http://dataride.org/countries.json/items/properties/CountryNameFra",
+        "type": "string",
+        "title": "The Countrynamefra Schema ",
+        "default": "",
+        "examples": [
+          "SINT MAARTEN"
+        ]
+      },
+      "DisplayNameEng": {
+        "$id": "http://dataride.org/countries.json/items/properties/DisplayNameEng",
+        "type": "string",
+        "title": "The Displaynameeng Schema ",
+        "default": "",
+        "examples": [
+          "SXM - SINT MAARTEN"
+        ]
+      },
+      "DisplayNameFra": {
+        "$id": "http://dataride.org/countries.json/items/properties/DisplayNameFra",
+        "type": "string",
+        "title": "The Displaynamefra Schema ",
+        "default": "",
+        "examples": [
+          "SXM - SINT MAARTEN"
+        ]
+      }
+    }
+  }
+}
