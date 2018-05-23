@@ -28,7 +28,6 @@ def get_teamlist(year, teamtype='roa'):
 def get_teamcategories(year, teamtype='roa'):
     conn = http.client.HTTPConnection("ucibws.uci.ch")
     conn.request("GET", "/api/teamsettings/teamcategories/{}/{}".format(teamtype, year))
-    conn.request("GET", "/api/teamsettings/teamcategories/ROA/2018".format(teamtype, year))
 
     res = conn.getresponse()
     data = res.read()
@@ -38,4 +37,4 @@ def get_teamcategories(year, teamtype='roa'):
 
 if __name__ == '__main__':
     # print(get_teamroles())
-    print(get_teamlist(2018))
+    print(get_teamcategories(2018))
