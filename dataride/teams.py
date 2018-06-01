@@ -27,7 +27,29 @@ def get_teamlist(year, teamtype='roa'):
 
 def get_teamcategories(year, teamtype='roa'):
     conn = http.client.HTTPConnection("ucibws.uci.ch")
-    conn.request("GET", "/api/teamsettings/teamcategories/{}/{}".format(teamtype, year))
+    conn.request("GET", "/api/teamsettings/teamcategories/{}/{}"
+                 .format(teamtype, year))
+
+    res = conn.getresponse()
+    data = res.read()
+    parsed = json.loads(data.decode("utf-8"))
+    return parsed
+
+
+def get_teammanagement_detail(seasonid, teamparentid):
+    conn = http.client.HTTPConnection("ucibws,uci,ch")
+    conn.request("GET", "/api/teamdetail/management/{}/{}"
+                 .format(seasonid, teamparentid))
+
+    res = conn.getresponse()
+    data = res.read()
+    parsed = json.loads(data.decode("utf-8"))
+    return parsed
+
+
+def get_teamdetail(teamhistoryid):
+    conn = http.client.HTTPConnection("ucibws,uci,ch")
+    conn.request("GET", "/api/teamdetail/{}".format(teamhistoryid))
 
     res = conn.getresponse()
     data = res.read()

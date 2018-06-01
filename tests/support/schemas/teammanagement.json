@@ -1,0 +1,228 @@
+{
+  "$id": "http://dataride.org/teammanagement.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://dataride.org/teammanagement.json/items",
+    "type": "object",
+    "properties": {
+      "TeamContractID": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/TeamContractID",
+        "type": "integer",
+        "title": "The Teamcontractid Schema ",
+        "default": 0,
+        "examples": [
+          132562
+        ]
+      },
+      "LinksContractID": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/LinksContractID",
+        "type": "integer",
+        "title": "The Linkscontractid Schema ",
+        "default": 0,
+        "examples": [
+          2023429
+        ]
+      },
+      "TeamParentID": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/TeamParentID",
+        "type": "integer",
+        "title": "The Teamparentid Schema ",
+        "default": 0,
+        "examples": [
+          1372
+        ]
+      },
+      "TeamSeasonID": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/TeamSeasonID",
+        "type": "integer",
+        "title": "The Teamseasonid Schema ",
+        "default": 0,
+        "examples": [
+          231
+        ]
+      },
+      "IndID": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/IndID",
+        "type": "integer",
+        "title": "The Indid Schema ",
+        "default": 0,
+        "examples": [
+          20377
+        ]
+      },
+      "Active": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/Active",
+        "type": "boolean",
+        "title": "The Active Schema ",
+        "default": false,
+        "examples": [
+          true
+        ]
+      },
+      "FamilyName": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/FamilyName",
+        "type": "string",
+        "title": "The Familyname Schema ",
+        "default": "",
+        "examples": [
+          "OCHOWICZ"
+        ]
+      },
+      "CountryCode": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/CountryCode",
+        "type": "string",
+        "title": "The Countrycode Schema ",
+        "default": "",
+        "examples": [
+          "USA"
+        ]
+      },
+      "GivenName": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/GivenName",
+        "type": "string",
+        "title": "The Givenname Schema ",
+        "default": "",
+        "examples": [
+          "Jim"
+        ]
+      },
+      "Birthdate": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/Birthdate",
+        "type": "string",
+        "title": "The Birthdate Schema ",
+        "default": "",
+        "examples": [
+          "1951-12-23T00:00:00"
+        ]
+      },
+      "UCICode": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/UCICode",
+        "type": "string",
+        "title": "The Ucicode Schema ",
+        "default": "",
+        "examples": [
+          "USA19511223"
+        ]
+      },
+      "GenderCode": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/GenderCode",
+        "type": "integer",
+        "title": "The Gendercode Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "FunctionID": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/FunctionID",
+        "type": "integer",
+        "title": "The Functionid Schema ",
+        "default": 0,
+        "examples": [
+          21
+        ]
+      },
+      "ContractFormat": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/ContractFormat",
+        "type": "null",
+        "title": "The Contractformat Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "FunctionNameEng": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/FunctionNameEng",
+        "type": "string",
+        "title": "The Functionnameeng Schema ",
+        "default": "",
+        "examples": [
+          "General Manager"
+        ]
+      },
+      "FunctionNameFra": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/FunctionNameFra",
+        "type": "string",
+        "title": "The Functionnamefra Schema ",
+        "default": "",
+        "examples": [
+          "Directeur Général"
+        ]
+      },
+      "IndividualName": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/IndividualName",
+        "type": "string",
+        "title": "The Individualname Schema ",
+        "default": "",
+        "examples": [
+          "OCHOWICZ Jim"
+        ]
+      },
+      "IndividualGroup": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/IndividualGroup",
+        "type": "string",
+        "title": "The Individualgroup Schema ",
+        "default": "",
+        "examples": [
+          "General Manager"
+        ]
+      },
+      "Sequence": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/Sequence",
+        "type": "integer",
+        "title": "The Sequence Schema ",
+        "default": 0,
+        "examples": [
+          2
+        ]
+      },
+      "CountryISO": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/CountryISO",
+        "type": "string",
+        "title": "The Countryiso Schema ",
+        "default": "",
+        "examples": [
+          "US"
+        ]
+      },
+      "UCIID": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/UCIID",
+        "type": "integer",
+        "title": "The Uciid Schema ",
+        "default": 0,
+        "examples": [
+          10002037788
+        ]
+      },
+      "ContactStatus": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/ContactStatus",
+        "type": "null",
+        "title": "The Contactstatus Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "ContactStatusNote": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/ContactStatusNote",
+        "type": "null",
+        "title": "The Contactstatusnote Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "PictureUrl": {
+        "$id": "http://dataride.org/teammanagement.json/items/properties/PictureUrl",
+        "type": "null",
+        "title": "The Pictureurl Schema ",
+        "default": null,
+        "examples": [
+          null
+        ]
+      }
+    }
+  }
+}
