@@ -1,0 +1,521 @@
+{
+  "$id": "http://dataride.org/teamdetail.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "TeamHistoryID": {
+      "$id": "/properties/TeamHistoryID",
+      "type": "integer",
+      "title": "The Teamhistoryid Schema ",
+      "default": 0,
+      "examples": [
+        9807
+      ]
+    },
+    "TeamNameID": {
+      "$id": "/properties/TeamNameID",
+      "type": "integer",
+      "title": "The Teamnameid Schema ",
+      "default": 0,
+      "examples": [
+        7138
+      ]
+    },
+    "TeamParentID": {
+      "$id": "/properties/TeamParentID",
+      "type": "integer",
+      "title": "The Teamparentid Schema ",
+      "default": 0,
+      "examples": [
+        1372
+      ]
+    },
+    "TeamSeasonID": {
+      "$id": "/properties/TeamSeasonID",
+      "type": "integer",
+      "title": "The Teamseasonid Schema ",
+      "default": 0,
+      "examples": [
+        231
+      ]
+    },
+    "TeamCode": {
+      "$id": "/properties/TeamCode",
+      "type": "string",
+      "title": "The Teamcode Schema ",
+      "default": "",
+      "examples": [
+        "BMC"
+      ]
+    },
+    "TeamName": {
+      "$id": "/properties/TeamName",
+      "type": "string",
+      "title": "The Teamname Schema ",
+      "default": "",
+      "examples": [
+        "BMC RACING TEAM"
+      ]
+    },
+    "CountryCode": {
+      "$id": "/properties/CountryCode",
+      "type": "string",
+      "title": "The Countrycode Schema ",
+      "default": "",
+      "examples": [
+        "USA"
+      ]
+    },
+    "StartDate": {
+      "$id": "/properties/StartDate",
+      "type": "string",
+      "title": "The Startdate Schema ",
+      "default": "",
+      "examples": [
+        "2018-01-01T00:00:00"
+      ]
+    },
+    "EndDate": {
+      "$id": "/properties/EndDate",
+      "type": "string",
+      "title": "The Enddate Schema ",
+      "default": "",
+      "examples": [
+        "2018-12-31T00:00:00"
+      ]
+    },
+    "Format": {
+      "$id": "/properties/Format",
+      "type": "null",
+      "title": "The Format Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "EMail": {
+      "$id": "/properties/EMail",
+      "type": "string",
+      "title": "The Email Schema ",
+      "default": "",
+      "examples": [
+        "chilcott@bmcracingteam.com"
+      ]
+    },
+    "WebSite": {
+      "$id": "/properties/WebSite",
+      "type": "string",
+      "title": "The Website Schema ",
+      "default": "",
+      "examples": [
+        "www.bmcracingteam.com"
+      ]
+    },
+    "WildCard": {
+      "$id": "/properties/WildCard",
+      "type": "boolean",
+      "title": "The Wildcard Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "PassBio": {
+      "$id": "/properties/PassBio",
+      "type": "boolean",
+      "title": "The Passbio Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "Active": {
+      "$id": "/properties/Active",
+      "type": "boolean",
+      "title": "The Active Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "SeasonYear": {
+      "$id": "/properties/SeasonYear",
+      "type": "integer",
+      "title": "The Seasonyear Schema ",
+      "default": 0,
+      "examples": [
+        2018
+      ]
+    },
+    "SeasonYearDisplay": {
+      "$id": "/properties/SeasonYearDisplay",
+      "type": "string",
+      "title": "The Seasonyeardisplay Schema ",
+      "default": "",
+      "examples": [
+        "2018"
+      ]
+    },
+    "SeasonNameFra": {
+      "$id": "/properties/SeasonNameFra",
+      "type": "string",
+      "title": "The Seasonnamefra Schema ",
+      "default": "",
+      "examples": [
+        "UCI WorldTeams"
+      ]
+    },
+    "SeasonNameEng": {
+      "$id": "/properties/SeasonNameEng",
+      "type": "string",
+      "title": "The Seasonnameeng Schema ",
+      "default": "",
+      "examples": [
+        "UCI WorldTeams"
+      ]
+    },
+    "SeasonActive": {
+      "$id": "/properties/SeasonActive",
+      "type": "boolean",
+      "title": "The Seasonactive Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "CategoryCode": {
+      "$id": "/properties/CategoryCode",
+      "type": "string",
+      "title": "The Categorycode Schema ",
+      "default": "",
+      "examples": [
+        "WTT"
+      ]
+    },
+    "CategoryNameEng": {
+      "$id": "/properties/CategoryNameEng",
+      "type": "string",
+      "title": "The Categorynameeng Schema ",
+      "default": "",
+      "examples": [
+        "UCI WorldTeams"
+      ]
+    },
+    "CategoryNameFra": {
+      "$id": "/properties/CategoryNameFra",
+      "type": "string",
+      "title": "The Categorynamefra Schema ",
+      "default": "",
+      "examples": [
+        "UCI WorldTeams"
+      ]
+    },
+    "DisciplineCode": {
+      "$id": "/properties/DisciplineCode",
+      "type": "string",
+      "title": "The Disciplinecode Schema ",
+      "default": "",
+      "examples": [
+        "ROA"
+      ]
+    },
+    "Address1": {
+      "$id": "/properties/Address1",
+      "type": "string",
+      "title": "The Address1 Schema ",
+      "default": "",
+      "examples": [
+        "Continuum Sports LLC"
+      ]
+    },
+    "Address2": {
+      "$id": "/properties/Address2",
+      "type": "string",
+      "title": "The Address2 Schema ",
+      "default": "",
+      "examples": [
+        "1825 Ferdinand Court / Unit B"
+      ]
+    },
+    "AddressZip": {
+      "$id": "/properties/AddressZip",
+      "type": "string",
+      "title": "The Addresszip Schema ",
+      "default": "",
+      "examples": [
+        "95404"
+      ]
+    },
+    "AddressTown": {
+      "$id": "/properties/AddressTown",
+      "type": "string",
+      "title": "The Addresstown Schema ",
+      "default": "",
+      "examples": [
+        "Santa Rosa CA"
+      ]
+    },
+    "AddressArea": {
+      "$id": "/properties/AddressArea",
+      "type": "string",
+      "title": "The Addressarea Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "AdressCountryCode": {
+      "$id": "/properties/AdressCountryCode",
+      "type": "string",
+      "title": "The Adresscountrycode Schema ",
+      "default": "",
+      "examples": [
+        "USA"
+      ]
+    },
+    "AddressPhone": {
+      "$id": "/properties/AddressPhone",
+      "type": "string",
+      "title": "The Addressphone Schema ",
+      "default": "",
+      "examples": [
+        "+1 707 542 5462"
+      ]
+    },
+    "AddressFax": {
+      "$id": "/properties/AddressFax",
+      "type": "string",
+      "title": "The Addressfax Schema ",
+      "default": "",
+      "examples": [
+        "+1 707 542 5399"
+      ]
+    },
+    "AddressCountryNameEng": {
+      "$id": "/properties/AddressCountryNameEng",
+      "type": "string",
+      "title": "The Addresscountrynameeng Schema ",
+      "default": "",
+      "examples": [
+        "UNITED STATES OF AMERICA"
+      ]
+    },
+    "AddressCountryNameFra": {
+      "$id": "/properties/AddressCountryNameFra",
+      "type": "string",
+      "title": "The Addresscountrynamefra Schema ",
+      "default": "",
+      "examples": [
+        "ETATS-UNIS D'AMERIQUE"
+      ]
+    },
+    "AddressCalendarNameEng": {
+      "$id": "/properties/AddressCalendarNameEng",
+      "type": "string",
+      "title": "The Addresscalendarnameeng Schema ",
+      "default": "",
+      "examples": [
+        "America"
+      ]
+    },
+    "AddressCalendarNameFra": {
+      "$id": "/properties/AddressCalendarNameFra",
+      "type": "string",
+      "title": "The Addresscalendarnamefra Schema ",
+      "default": "",
+      "examples": [
+        "Amérique"
+      ]
+    },
+    "Note": {
+      "$id": "/properties/Note",
+      "type": "null",
+      "title": "The Note Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "TeamCategoryID": {
+      "$id": "/properties/TeamCategoryID",
+      "type": "integer",
+      "title": "The Teamcategoryid Schema ",
+      "default": 0,
+      "examples": [
+        19
+      ]
+    },
+    "WebCategory": {
+      "$id": "/properties/WebCategory",
+      "type": "string",
+      "title": "The Webcategory Schema ",
+      "default": "",
+      "examples": [
+        "WTT"
+      ]
+    },
+    "CountryNameFra": {
+      "$id": "/properties/CountryNameFra",
+      "type": "string",
+      "title": "The Countrynamefra Schema ",
+      "default": "",
+      "examples": [
+        "ETATS-UNIS D'AMERIQUE"
+      ]
+    },
+    "CountryNameEng": {
+      "$id": "/properties/CountryNameEng",
+      "type": "string",
+      "title": "The Countrynameeng Schema ",
+      "default": "",
+      "examples": [
+        "UNITED STATES OF AMERICA"
+      ]
+    },
+    "ContinentCode": {
+      "$id": "/properties/ContinentCode",
+      "type": "string",
+      "title": "The Continentcode Schema ",
+      "default": "",
+      "examples": [
+        "AME"
+      ]
+    },
+    "CalendarAlternateNameFra": {
+      "$id": "/properties/CalendarAlternateNameFra",
+      "type": "string",
+      "title": "The Calendaralternatenamefra Schema ",
+      "default": "",
+      "examples": [
+        "Amérique"
+      ]
+    },
+    "CalendarAlternateNameEng": {
+      "$id": "/properties/CalendarAlternateNameEng",
+      "type": "string",
+      "title": "The Calendaralternatenameeng Schema ",
+      "default": "",
+      "examples": [
+        "America"
+      ]
+    },
+    "FormatNameEng": {
+      "$id": "/properties/FormatNameEng",
+      "type": "null",
+      "title": "The Formatnameeng Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "FormatNameFra": {
+      "$id": "/properties/FormatNameFra",
+      "type": "null",
+      "title": "The Formatnamefra Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "TeamNotesEng": {
+      "$id": "/properties/TeamNotesEng",
+      "type": "null",
+      "title": "The Teamnoteseng Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "TeamNotesFra": {
+      "$id": "/properties/TeamNotesFra",
+      "type": "null",
+      "title": "The Teamnotesfra Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "TeamBiographyEng": {
+      "$id": "/properties/TeamBiographyEng",
+      "type": "string",
+      "title": "The Teambiographyeng Schema ",
+      "default": "",
+      "examples": [
+        "Traditionally one of the UCI WorldTour’s most successful squads, BMC Racing Team ticked several key boxes in 2017: they won the squad’s first-ever Monument in the Paris-Roubaix with Greg Van Avermaet who also completed the season by winning the UCI WorldTour. BMC Racing Team also secured the opening team time trial of the Vuelta a España. The team netted a stunning total of 48 wins, 18 more than in 2016, including three major Belgian cobbled Classics – Gent-Wevelgem, the Record Bank E3 Harelbeke and Omloop Het Nieuwsblad – the Tour de Pologne, the Tour de Romandie and the Santos Tour Down Under.<br/><br/>But far from quenching BMC Racing Team’s ambitions, next season – their 13th in the peloton – more objectives loom on the horizon, in particular for Van Avermaet. <br/>\"My goals are pretty straightforward: It's winning the Ronde van Vlaanderen,\" said the 32 year-old Belgian during the off-season. “This year it didn't work out again. It's the race that means the most to me and the race that suits me the best.”<br/><br/>\"I hope I can win the races I was second in last year – the Ronde and Strade Bianche. It would be nice in my career to win everything in the biggest races through to Roubaix. So that would be cool to win Flanders, and Amstel Gold I'd like also.”<br/><br/>Whilst BMC Racing Team’s Classics campaign is clear, they will aim to raise their standards in the GCs of Grand Tours in 2018, with a triple-headed assault on the overall classifications with Richie Porte, Tejay Van Garderen and Rohan Dennis. Porte looks set to target the Tour de France, where he crashed out whilst excellently placed in 2017, whilst American Van Garderen will likely support the Australian champion there and Dennis heads for the Giro d’Italia.<br/>\"We need to get on the podium at the Tour,\" general manager Jim Ochowicz said during the 2017-2018 off-season.<br/><br/>“Cadel [Evans] was our last Tour podium finisher, winning in 2011, and we know how to do it. I understand that you need luck and to have the right athletes lining out for you, but we have the right riders and Richie is our guy to get the job done.”<br/><br/>BMC Racing have lost one key middle-ranking rider, Silvan Dillier – Swiss National Road champion and winner of an uphill sprint stage at the Giro d’Italia – who moves to AG2R La Mondiale and two key domestiques, Martin Elmiger and Manuel Quinziato, both of whom have retired. But there is plenty of up-and-coming talent in their ranks for 2018. Dylan Teuns, third in Flèche Wallonne in 2017 and then winner of the Tour de Pologne in the teeth of some very tough opposition, will be aiming to progress further in the Ardennes Classics this April.<br/><br/>Two of their key signings, Simon Gerrans and Jurgen Roelandts are expected to feature strongly both as support riders as well as taking whatever opportunities they can to shine individually. Gerrans is a former winner of both Milano-Sanremo and Liège-Bastogne-Liège, as well as a former yellow jersey wearer in the Tour and a winner of stages in all three Grand Tours, so will be one of BMC Racing Team’s most versatile players. Roelandts is a hugely talented spring Classics racer, with podium finishes in Milano-Sanremo and the Ronde van Vlaanderen. Given the scale of BMC Racing Team’s ambitions in 2018, they and the rest of their team-mates will surely be active on all fronts throughout the season."
+      ]
+    },
+    "TeamBiographyFra": {
+      "$id": "/properties/TeamBiographyFra",
+      "type": "string",
+      "title": "The Teambiographyfra Schema ",
+      "default": "",
+      "examples": [
+        "BMC Racing Team, qui compte traditionnellement parmi les équipes les plus performantes de l'UCI WorldTour, a encore étoffé son palmarès en 2017. Greg Van Avermaet lui a permis de décrocher son tout premier Monument, Paris-Roubaix, avant de s'adjuger l’UCI World Tour en fin de saison. BMC Racing Team a par ailleurs remporté le contre-la-montre par équipes inaugural de la Vuelta a España. L’équipe a signé un nombre impressionnant de 48 victoires, soit 18 de plus qu’en 2016, dont trois classiques flandriennes – Gent-Wevelgem, le Record Bank E3 Harelbeke et l'Omloop Het Nieuwsblad –, le Tour de Pologne, le Tour de Romandie et le Santos Tour Down Under.<br/><br/>Pas de quoi refroidir les ardeurs de la formation américaine, qui aura la saison prochaine – sa 13e dans le peloton – d’autres ambitions, notamment pour Van Avermaet. <br/><br/>\"Mes objectifs sont assez clairs : gagner le Ronde van Vlaanderen, a indiqué le Belge de 32 ans durant l'intersaison. Il ne m'a pas encore souri cette année. C’est la course qui me tient le plus à cœur et qui me convient le mieux.<br/><br/>\"J’espère pouvoir gagner les courses où je suis arrivé second en 2017 : le Ronde van Vlaanderenet et les Strade Bianche. J’aimerais dans ma carrière remporter toutes les plus grandes courses précédant Roubaix. Ce serait donc sympa de gagner le Tour des Flandres et l’Amstel Gold Race.\"<br/><br/>La campagne des Classiques de BMC Racing Team est claire, mais l’équipe cherchera également à faire mieux en 2018 au classement général des Grands Tours, où trois coureurs mèneront la charge : Richie Porte, Tejay Van Garderen et Rohan Dennis. Il semblerait que Porte se focalise sur le Tour de France, où il a chuté en 2017 alors qu’il était en excellente position, tandis que l’Américain Van Garderen devrait y soutenir le champion australien. Rohan Dennis se concentrant quant à lui sur le Giro d’Italia.<br/><br/>\"Nous devons être sur le podium du Tour de France\", a déclaré Jim Ochowicz, le Manager Général, au cours de l'intersaison 2017-2018.<br/><br/>\"Cadel [Evans] est le dernier coureur BMC à avoir terminé sur le podium lors de sa victoire en 2011, nous savons comment faire. Je sais qu’il faut à la fois de la chance et un bon effectif, mais nous avons les bons coureurs et nous savons que Richie peut y parvenir.\"<br/><br/>BMC Racing Team a perdu un coureur de qualité en la personne de Silvan Dillier – Champion de Suisse de la course en ligne et vainqueur au sprint d’une étape accidentée du Giro d’Italia –, qui a signé chez AG2R La Mondiale, ainsi que deux précieux équipiers, Martin Elmiger et Manuel Quinziato, tous deux fraîchement retraités. Mais l’équipe disposera dans ses rangs d’une génération pleine d’avenir en 2018. Dylan Teuns, troisième de la Flèche Wallonne en 2017 avant de s'adjuger le Tour de Pologne face à une forte opposition, cherchera à franchir un nouveau palier dans les Classiques ardennaises en avril prochain.<br/><br/>On attend de Simon Gerrans et Jurgen Roelandts, deux des recrues les plus marquantes, qu’ils soient des soutiens solides tout en saisissant chaque opportunité de briller en individuel. Ancien vainqueur de Milano-Sanremo et de Liège-Bastogne-Liège, Gerrans a également porté le maillot jaune sur le Tour de France et gagné des étapes dans les trois Grands Tours. Il sera donc l’un des coureurs les plus polyvalents de l’équipe. Roelandts est quant à lui très performant sur les Classiques printanières, comme en témoignent ses podiums sur Milano-Sanremo et le Tour des Flandres. Au vu des ambitions de BMC Racing Team pour 2018, les recrues et leurs coéquipiers seront certainement actifs sur tous les fronts d’un bout à l’autre de la saison."
+      ]
+    },
+    "WebPreviewTeamBiographyEng": {
+      "$id": "/properties/WebPreviewTeamBiographyEng",
+      "type": "string",
+      "title": "The Webpreviewteambiographyeng Schema ",
+      "default": "",
+      "examples": [
+        "Traditionally one of the UCI WorldTour’s most successful squads, BMC Racing Team ticked several key boxes in 2017: they won the squad’s first-ever Monument in the Paris-Roubaix with Greg Van Avermaet who also completed the season by winning the UCI WorldTour. BMC Racing Team also..."
+      ]
+    },
+    "WebPreviewTeamBiographyFra": {
+      "$id": "/properties/WebPreviewTeamBiographyFra",
+      "type": "string",
+      "title": "The Webpreviewteambiographyfra Schema ",
+      "default": "",
+      "examples": [
+        "BMC Racing Team, qui compte traditionnellement parmi les équipes les plus performantes de l'UCI WorldTour, a encore étoffé son palmarès en 2017. Greg Van Avermaet lui a permis de décrocher son tout premier Monument, Paris-Roubaix, avant de s'adjuger l’UCI World Tour en fin de sai..."
+      ]
+    },
+    "CountryISO": {
+      "$id": "/properties/CountryISO",
+      "type": "string",
+      "title": "The Countryiso Schema ",
+      "default": "",
+      "examples": [
+        "US"
+      ]
+    },
+    "WebPictureTeamJersey": {
+      "$id": "/properties/WebPictureTeamJersey",
+      "type": "string",
+      "title": "The Webpictureteamjersey Schema ",
+      "default": "",
+      "examples": [
+        "./ModulesData/Teams/2018/ROA/Jerseys/WTT/ROA-WTT_BMC_2018.jpg"
+      ]
+    },
+    "WebPictureTeamPhoto": {
+      "$id": "/properties/WebPictureTeamPhoto",
+      "type": "string",
+      "title": "The Webpictureteamphoto Schema ",
+      "default": "",
+      "examples": [
+        "./ModulesData/Teams/2018/ROA/TeamsPictures/WTT/ROA-WTT_BMC_2018.jpg"
+      ]
+    },
+    "WebPictureTeamJerseyName": {
+      "$id": "/properties/WebPictureTeamJerseyName",
+      "type": "string",
+      "title": "The Webpictureteamjerseyname Schema ",
+      "default": "",
+      "examples": [
+        "ROA-WTT_BMC_2018"
+      ]
+    },
+    "WebPictureTeamJerseyPath": {
+      "$id": "/properties/WebPictureTeamJerseyPath",
+      "type": "string",
+      "title": "The Webpictureteamjerseypath Schema ",
+      "default": "",
+      "examples": [
+        "./ModulesData/Teams/2018/ROA/Jerseys/WTT/"
+      ]
+    }
+  }
+}

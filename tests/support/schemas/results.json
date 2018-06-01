@@ -1,0 +1,376 @@
+{
+  "$id": "http://dataride.org/results.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "data": {
+      "$id": "/properties/data",
+      "type": "array",
+      "items": {
+        "$id": "/properties/data/items",
+        "type": "object",
+        "properties": {
+          "ResultId": {
+            "$id": "/properties/data/items/properties/ResultId",
+            "type": "integer",
+            "title": "The Resultid Schema ",
+            "default": 0,
+            "examples": [
+              4262500
+            ]
+          },
+          "RankNumber": {
+            "$id": "/properties/data/items/properties/RankNumber",
+            "type": "integer",
+            "title": "The Ranknumber Schema ",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          },
+          "SortOrder": {
+            "$id": "/properties/data/items/properties/SortOrder",
+            "type": "integer",
+            "title": "The Sortorder Schema ",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          },
+          "TeamType": {
+            "$id": "/properties/data/items/properties/TeamType",
+            "type": "integer",
+            "title": "The Teamtype Schema ",
+            "default": 0,
+            "examples": [
+              3
+            ]
+          },
+          "Rank": {
+            "$id": "/properties/data/items/properties/Rank",
+            "type": "string",
+            "title": "The Rank Schema ",
+            "default": "",
+            "examples": [
+              "1"
+            ]
+          },
+          "Bib": {
+            "$id": "/properties/data/items/properties/Bib",
+            "title": "The Bib Schema ",
+            "default": "",
+            "examples": [
+              "61"
+            ]
+          },
+          "MandatoryDate": {
+            "$id": "/properties/data/items/properties/MandatoryDate",
+            "type": "string",
+            "title": "The Mandatorydate Schema ",
+            "default": "",
+            "examples": [
+              "/Date(1527372000000)/"
+            ]
+          },
+          "BirthDate": {
+            "$id": "/properties/data/items/properties/BirthDate",
+            "type": "string",
+            "title": "The Birthdate Schema ",
+            "default": "",
+            "examples": [
+              "/Date(643845600000)/"
+            ]
+          },
+          "Age": {
+            "$id": "/properties/data/items/properties/Age",
+            "type": "string",
+            "title": "The Age Schema ",
+            "default": "",
+            "examples": [
+              "28"
+            ]
+          },
+          "IndividualDisplayName": {
+            "$id": "/properties/data/items/properties/IndividualDisplayName",
+            "type": "string",
+            "title": "The Individualdisplayname Schema ",
+            "default": "",
+            "examples": [
+              "DENNIS Rohan"
+            ]
+          },
+          "IndividualFirstName": {
+            "$id": "/properties/data/items/properties/IndividualFirstName",
+            "type": "null",
+            "title": "The Individualfirstname Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "IndividualLastName": {
+            "$id": "/properties/data/items/properties/IndividualLastName",
+            "type": "null",
+            "title": "The Individuallastname Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "UnknownIndividualDisplayName": {
+            "$id": "/properties/data/items/properties/UnknownIndividualDisplayName",
+            "type": "null",
+            "title": "The Unknownindividualdisplayname Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "UnknownIndividualFirstName": {
+            "$id": "/properties/data/items/properties/UnknownIndividualFirstName",
+            "type": "null",
+            "title": "The Unknownindividualfirstname Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "UnknownIndividualLastName": {
+            "$id": "/properties/data/items/properties/UnknownIndividualLastName",
+            "type": "null",
+            "title": "The Unknownindividuallastname Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "DisplayName": {
+            "$id": "/properties/data/items/properties/DisplayName",
+            "type": "string",
+            "title": "The Displayname Schema ",
+            "default": "",
+            "examples": [
+              "DENNIS Rohan"
+            ]
+          },
+          "DisplayFirstName": {
+            "$id": "/properties/data/items/properties/DisplayFirstName",
+            "type": "null",
+            "title": "The Displayfirstname Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "DisplayLastName": {
+            "$id": "/properties/data/items/properties/DisplayLastName",
+            "type": "null",
+            "title": "The Displaylastname Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "IsoCode2": {
+            "$id": "/properties/data/items/properties/IsoCode2",
+            "type": "string",
+            "title": "The Isocode2 Schema ",
+            "default": "",
+            "examples": [
+              "AU"
+            ]
+          },
+          "NationName": {
+            "$id": "/properties/data/items/properties/NationName",
+            "type": "string",
+            "title": "The Nationname Schema ",
+            "default": "",
+            "examples": [
+              "AUS       "
+            ]
+          },
+          "IndividualCountryIsoCode2": {
+            "$id": "/properties/data/items/properties/IndividualCountryIsoCode2",
+            "type": "string",
+            "title": "The Individualcountryisocode2 Schema ",
+            "default": "",
+            "examples": [
+              "AU"
+            ]
+          },
+          "IndividualCountryName": {
+            "$id": "/properties/data/items/properties/IndividualCountryName",
+            "type": "string",
+            "title": "The Individualcountryname Schema ",
+            "default": "",
+            "examples": [
+              "AUS       "
+            ]
+          },
+          "IndividualCountryNameText": {
+            "$id": "/properties/data/items/properties/IndividualCountryNameText",
+            "type": "string",
+            "title": "The Individualcountrynametext Schema ",
+            "default": "",
+            "examples": [
+              "AUSTRALIA"
+            ]
+          },
+          "UnknownIndividualCountryIsoCode2": {
+            "$id": "/properties/data/items/properties/UnknownIndividualCountryIsoCode2",
+            "type": "null",
+            "title": "The Unknownindividualcountryisocode2 Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "UnknownIndividualCountryName": {
+            "$id": "/properties/data/items/properties/UnknownIndividualCountryName",
+            "type": "null",
+            "title": "The Unknownindividualcountryname Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "UnknownIndividualCountryNameText": {
+            "$id": "/properties/data/items/properties/UnknownIndividualCountryNameText",
+            "type": "null",
+            "title": "The Unknownindividualcountrynametext Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "TeamName": {
+            "$id": "/properties/data/items/properties/TeamName",
+            "type": "string",
+            "title": "The Teamname Schema ",
+            "default": "",
+            "examples": [
+              "BMC RACING TEAM"
+            ]
+          },
+          "ResultValue": {
+            "$id": "/properties/data/items/properties/ResultValue",
+            "type": "string",
+            "title": "The Resultvalue Schema ",
+            "default": "",
+            "examples": [
+              " 4:03:21"
+            ]
+          },
+          "PointPcR": {
+            "$id": "/properties/data/items/properties/PointPcR",
+            "title": "The Pointpcr Schema ",
+            "default": 0,
+            "examples": [
+              20
+            ]
+          },
+          "TeamPointPcR": {
+            "$id": "/properties/data/items/properties/TeamPointPcR",
+            "type": "null",
+            "title": "The Teampointpcr Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "PcRPrefix": {
+            "$id": "/properties/data/items/properties/PcRPrefix",
+            "type": "string",
+            "title": "The Pcrprefix Schema ",
+            "default": "",
+            "examples": [
+              "20"
+            ]
+          },
+          "PcRSuffix": {
+            "$id": "/properties/data/items/properties/PcRSuffix",
+            "type": "string",
+            "title": "The Pcrsuffix Schema ",
+            "default": "",
+            "examples": [
+              ""
+            ]
+          },
+          "Irm": {
+            "$id": "/properties/data/items/properties/Irm",
+            "type": "null",
+            "title": "The Irm Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "FlagCode": {
+            "$id": "/properties/data/items/properties/FlagCode",
+            "type": "string",
+            "title": "The Flagcode Schema ",
+            "default": "",
+            "examples": [
+              "au"
+            ]
+          },
+          "Gender": {
+            "$id": "/properties/data/items/properties/Gender",
+            "type": "string",
+            "title": "The Gender Schema ",
+            "default": "",
+            "examples": [
+              ""
+            ]
+          },
+          "IndividualGender": {
+            "$id": "/properties/data/items/properties/IndividualGender",
+            "type": "null",
+            "title": "The Individualgender Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "UnknownIndividualGender": {
+            "$id": "/properties/data/items/properties/UnknownIndividualGender",
+            "type": "null",
+            "title": "The Unknownindividualgender Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "Phase": {
+            "$id": "/properties/data/items/properties/Phase",
+            "type": "null",
+            "title": "The Phase Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "Heat": {
+            "$id": "/properties/data/items/properties/Heat",
+            "type": "null",
+            "title": "The Heat Schema ",
+            "default": null,
+            "examples": [
+              null
+            ]
+          }
+        }
+      }
+    },
+    "total": {
+      "$id": "/properties/total",
+      "type": "integer",
+      "title": "The Total Schema ",
+      "default": 0,
+      "examples": [
+        175
+      ]
+    }
+  }
+}

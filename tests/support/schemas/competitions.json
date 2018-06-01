@@ -1,0 +1,135 @@
+{
+  "$id": "http://dataride.org/competitions.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "data": {
+      "$id": "/properties/data",
+      "type": "array",
+      "items": {
+        "$id": "/properties/data/items",
+        "type": "object",
+        "properties": {
+          "CompetitionId": {
+            "$id": "/properties/data/items/properties/CompetitionId",
+            "type": "integer",
+            "title": "The Competitionid Schema ",
+            "default": 0,
+            "examples": [
+              51469
+            ]
+          },
+          "StartDate": {
+            "$id": "/properties/data/items/properties/StartDate",
+            "type": "string",
+            "title": "The Startdate Schema ",
+            "default": "",
+            "examples": [
+              "/Date(1527026400000)/"
+            ]
+          },
+          "EndDate": {
+            "$id": "/properties/data/items/properties/EndDate",
+            "type": "string",
+            "title": "The Enddate Schema ",
+            "default": "",
+            "examples": [
+              "/Date(1527372000000)/"
+            ]
+          },
+          "CompetitionName": {
+            "$id": "/properties/data/items/properties/CompetitionName",
+            "type": "string",
+            "title": "The Competitionname Schema ",
+            "default": "",
+            "examples": [
+              "Baloise Belgium Tour"
+            ]
+          },
+          "CountryName": {
+            "$id": "/properties/data/items/properties/CountryName",
+            "type": "string",
+            "title": "The Countryname Schema ",
+            "default": "",
+            "examples": [
+              "BELGIUM"
+            ]
+          },
+          "IsInProgress": {
+            "$id": "/properties/data/items/properties/IsInProgress",
+            "type": "boolean",
+            "title": "The Isinprogress Schema ",
+            "default": false,
+            "examples": [
+              true
+            ]
+          },
+          "IsDone": {
+            "$id": "/properties/data/items/properties/IsDone",
+            "type": "boolean",
+            "title": "The Isdone Schema ",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "CountryIsoCode3": {
+            "$id": "/properties/data/items/properties/CountryIsoCode3",
+            "type": "string",
+            "title": "The Countryisocode3 Schema ",
+            "default": "",
+            "examples": [
+              "BEL"
+            ]
+          },
+          "CountryIsoCode2": {
+            "$id": "/properties/data/items/properties/CountryIsoCode2",
+            "type": "string",
+            "title": "The Countryisocode2 Schema ",
+            "default": "",
+            "examples": [
+              "BE"
+            ]
+          },
+          "ClassCode": {
+            "$id": "/properties/data/items/properties/ClassCode",
+            "type": "string",
+            "title": "The Classcode Schema ",
+            "default": "",
+            "examples": [
+              "2.HC"
+            ]
+          },
+          "FlagCode": {
+            "$id": "/properties/data/items/properties/FlagCode",
+            "type": "string",
+            "title": "The Flagcode Schema ",
+            "default": "",
+            "examples": [
+              "be"
+            ]
+          },
+          "Date": {
+            "$id": "/properties/data/items/properties/Date",
+            "type": "string",
+            "title": "The Date Schema ",
+            "default": "",
+            "examples": [
+              "23 May-27 May 2018"
+            ]
+          }
+        }
+      }
+    },
+    "total": {
+      "$id": "/properties/total",
+      "type": "integer",
+      "title": "The Total Schema ",
+      "default": 0,
+      "examples": [
+        272
+      ]
+    }
+  }
+}
